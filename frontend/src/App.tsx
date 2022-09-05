@@ -1,7 +1,12 @@
+import NotificationButton from "./components/NotificationButton"
 
 function App() {
   return (
-    <h1>Olá, mundo!</h1>
+    <main>
+      <h1>Projeto Spring React DevSuperior</h1>
+      <NotificationButton />
+      <NotificationButton />
+    </main>
   )
 }
 
